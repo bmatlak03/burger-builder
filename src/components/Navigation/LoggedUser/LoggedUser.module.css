@@ -1,0 +1,13 @@
+.Logged {
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+}
+@media (max-width: 499px) {
+
+    .Logged{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,58 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
+.Button:disabled {
+    color: grey;
+    cursor: not-allowed;
+}
+.Delete {
+    display: block;
+    margin: 0 auto !important;
+    color: red;
+    border: 1px solid red;
+    padding: 5px 15px !important;
+    transition: .1s;
+    animation: enable 0.3s linear;
+    font-weight:400;
+
+}
+
+.Delete:hover {
+    color: white;
+    background-color: red;
+    border-color:red;
+    transform: scale(1.1);
+}
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

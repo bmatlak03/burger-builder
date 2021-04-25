@@ -1,4 +1,3 @@
-import Aux from "../../../hoc/hoc";
 import Button from "../../UI/Button/Button";
 const orderSummary = ({
   ingredients,
@@ -15,7 +14,7 @@ const orderSummary = ({
     );
   });
   return (
-    <Aux>
+    <>
       <h3>Your order</h3>
       <p>A delicious burger with the following ingredients:</p>
       <ul>{ingredientSummary}</ul>
@@ -29,7 +28,7 @@ const orderSummary = ({
       <Button clicked={purchaseContinue} btnType="Success">
         CONTINUE
       </Button>
-    </Aux>
+    </>
   );
 };
 

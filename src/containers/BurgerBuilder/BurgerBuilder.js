@@ -1,6 +1,5 @@
 import { useEffect, useState, useCallback } from "react";
 import Burger from "../../components/Burger/Burger";
-import Aux from "../../hoc/hoc";
 import BuildControls from "../../components/Burger/BuildControls/BuildControls";
 import Modal from "../../components/UI/Modal/Modal";
 import OrderSummary from "../../components/Burger/OrderSummary/OrderSummary";
@@ -79,7 +78,7 @@ export const BurgerBuilder = ({ history }) => {
   let burger = error ? <p>Ingredients cant be loaded!</p> : <Spinner />;
   if (ings) {
     burger = (
-      <Aux>
+      <>
         <Burger ingredients={ings} />
         <BuildControls
           ingredientAdded={onAddIngredient}
@@ -90,7 +89,7 @@ export const BurgerBuilder = ({ history }) => {
           isAuth={isAuthenticated}
           purchasable={updatePurchaseState(ings)}
         />
-      </Aux>
+      </>
     );
     orderSummary = (
       <OrderSummary
@@ -102,12 +101,12 @@ export const BurgerBuilder = ({ history }) => {
     );
   }
   return (
-    <Aux>
+    <>
       <Modal show={purchasing} modalClosed={purchaseCancelHandler}>
         {orderSummary}
       </Modal>
       {burger}
-    </Aux>
+    </>
   );
 };
 

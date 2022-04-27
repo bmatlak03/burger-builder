@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🍔 Burger Builder 🍔
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application, which enables us to create your own composition of burger and sending the data to [Firebase platform](https://firebase.google.com/)
 
-## Available Scripts
+## Instalation
 
-In the project directory, you can run:
+To run this application you need to install [NodeJS](https://nodejs.org)
+After successful installation:
 
-### `npm start`
+1. [Download project as ZIP](https://github.com/bmatlak03/burger-builder/archive/refs/heads/main.zip) or if you want to clone the repository into a directory run command `git clone https://github.com/bmatlak03/burger-builder.git <folderName> `
+2. After that run command `npm install` to install necessary dependencies
+3. Run command `npm start`
+4. Go to https://localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ <a href="LINK" title="TITLE"><img src="IMAGELINK" alt="LANG" width="50px" height="50px"></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tech stack
 
-### `npm test`
+<a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="50px" height="50px"></a> <a href="https://redux.js.org/" title="Redux"><img src="https://github.com/get-icon/geticon/raw/master/icons/redux.svg" alt="Redux" width="50px" height="50px"></a> <a href="https://developer.mozilla.org/pl/docs/Web/JavaScript" title="Javascript"><img src="https://github.com/get-icon/geticon/blob/master/icons/javascript.svg" alt="Javascript" width="50px" height="50px"></a>  <a href="https://developer.mozilla.org/pl/docs/Web/CSS" title="CSS"><img src="https://github.com/get-icon/geticon/blob/master/icons/css-3.svg" alt="CSS" width="50px" height="50px"></a> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Database & Authentication**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="https://firebase.google.com/" title="Firebase"><img src="https://github.com/get-icon/geticon/blob/master/icons/firebase.svg" alt="Firebase" width="50px" height="50px"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Live
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<a href="https://bmatlak03.github.io/burger-builder/" title="Live"><img src="https://github.com/get-icon/geticon/blob/master/icons/github-icon.svg" alt="Github pages" width="50px"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Desktop**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="https://img001.prntscr.com/file/img001/IomfBA9TR6GTAVgaKTse1w.png" alt="BurgerBuilder_Desktop" width="50%"> <img src="https://img001.prntscr.com/file/img001/GGs0a-_iQ6OvR-ha3aiexA.png" alt="BurgerBuilder_Desktop" width="50%">
+<img src="	https://img001.prntscr.com/file/img001/etXeSFQvSJaj7kMcFmso8Q.png" alt="BurgerBuilder_Desktop" width="50%">
 
-## Learn More
+**Mobile**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://img001.prntscr.com/file/img001/Z_kYCBB2Sp2M2wiXMBYV2Q.png" alt="BurgerBuilder_Mobile" width="25%"> <img src="https://img001.prntscr.com/file/img001/9bX923kmRomnDxX_UHeR6Q.png" alt="BurgerBuilder_Mobile" width="25%"> <img src="https://img001.prntscr.com/file/img001/3oEFZa7tT0CYdlAJjmSOQA.png" alt="BurgerBuilder_Mobile" width="25%">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credentials 💳
 
-### Code Splitting
+For testing purposes you can use following credentials:
+**Email**: guest@guest.com
+**Password**: guest321
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Inspiration
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created under the supervision from Maximilian Schwarzmuler on his old version of [React course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

@@ -12,7 +12,6 @@ After successful installation:
 3. Run command `npm start`
 4. Go to https://localhost:3000
 
- <a href="LINK" title="TITLE"><img src="IMAGELINK" alt="LANG" width="50px" height="50px"></a>
 
 ## Tech stack
 
@@ -48,4 +47,4 @@ For testing purposes you can use following credentials:
 
 ## Inspiration
 
-Created under the supervision from Maximilian Schwarzmuler on his old version of [React course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+Created under the supervision from [Maximilian Schwarzmuler](https://www.udemy.com/user/maximilian-schwarzmuller/) on his old version of [React course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)

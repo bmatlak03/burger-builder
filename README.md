@@ -34,7 +34,7 @@ After successful installation:
 **Desktop**
 
 <img src="https://img001.prntscr.com/file/img001/IomfBA9TR6GTAVgaKTse1w.png" alt="BurgerBuilder_Desktop" width="50%"> <img src="https://img001.prntscr.com/file/img001/GGs0a-_iQ6OvR-ha3aiexA.png" alt="BurgerBuilder_Desktop" width="50%">
-<img src="	https://img001.prntscr.com/file/img001/etXeSFQvSJaj7kMcFmso8Q.png" alt="BurgerBuilder_Desktop" width="50%">
+<img src="https://img001.prntscr.com/file/img001/etXeSFQvSJaj7kMcFmso8Q.png" alt="BurgerBuilder_Desktop" width="50%">
 
 **Mobile**
 

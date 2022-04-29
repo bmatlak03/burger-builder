@@ -2,6 +2,19 @@
 
 Application, which enables us to create your own composition of burger and sending the data to [Firebase platform](https://firebase.google.com/)
 
+<details>
+ <summary><b>What I have learned by making this project:</b></summary>
+<br>
+ 
+What I have learned:
+ - How to work with class based components in React
+ - Basic knowledge of Redux incl. Sagas, Thunk
+ - Basic knowledge of React and how to create functional components
+ - Basic knowledge of React Router
+ - Other ways how to fetch data [(axios)](https://github.com/axios/axios)
+ - How to work with Firebase
+</details>
+
 ## Instalation
 
 To run this application you need to install [NodeJS](https://nodejs.org)
